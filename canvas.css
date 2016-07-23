@@ -1,0 +1,17 @@
+.smile{
+	width:1100px;
+	margin:50px auto 10px;
+}
+#contain{
+	width:1000px;
+	height: auto;
+	margin:0 auto;
+	background: #bbb;
+	padding:20px;
+	box-shadow: 0 0 10px inset,0 0 10px;
+}
+
+#contain #tshirtCanvas{
+	border:1px solid #ccc;
+	background: #fff;
+}
