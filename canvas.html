@@ -1,0 +1,56 @@
+/*
+* this is a html for canvas.
+* You can make some different logo by this.
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="canvas.css">
+</head>
+<body>
+	<div class="smile">
+		<canvas id="smile" width="1100" height="200"></canvas>
+	</div>
+	<div class="contain" id="contain">
+		<h4>TweetShirt</h4>
+		<canvas width="1000" height="300" id="tshirtCanvas">
+			<p>请升级浏览器</p>
+		</canvas>
+		<form class="frm" id="frm">
+			<p>
+				<label for="backgroundColor">Select background color:</label>
+				<select name="" id="backgroundColor">
+					<option value="white" selected="selected">White</option>
+					<option value="black">Black</option>
+				</select>
+			</p>
+			<p>
+				<label for="foregroundColor">Select text color:</label>
+				<select name="" id="foregroundColor">
+					<option value="white">White</option>
+					<option value="black" selected="selected">Black</option>
+				</select>
+			</p>
+			<p>
+				<label for="shape">Circles or squares:</label>
+				<select name="" id="shape">
+					<option value="none" selected="selected">Nethier</option>
+					<option value="circles">Circles</option>
+					<option value="squares">Squares</option>
+				</select>
+			</p>
+			<p>
+				<label for="tweet">Your logo:</label>
+				<input type="text" id="tweet" size="20" max-length="20" placeholder="输入的字符数少于20个">
+			</p>
+			<p>
+				<input type="button" id="previewButton" value="Preview">
+			</p>
+		</form>
+	</div>
+	<script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
